@@ -1,6 +1,7 @@
-function skillsmember() {
+function skillsMember() {
   return {
-    restrict: 'E',
-    templateUrl: 'views/skills-member.html'
+    id: 1,
+    name: 'John Doe',
+    skills: ['JavaScript', 'React', 'Node.js']
   };
 }
